@@ -22,7 +22,9 @@ This means that learning with us is not like listening to a teacher all the time
 
 Today I will introduce you to **GSAP**. The GreenSock Animation Platform (GSAP) is a popular set of JavaScript tools for building animations on the web. Anything you see in your web browser can be animated with GSAP. After the short introduction, it's up to you to push yourself to discover more. Today we will be making a 'magical universe' landing page.
 
-At the beginning, I will give a short introduction to this new technology. As we progress further in the workshop there will be less information from me, and it will be up to you to find solutions yourself.
+At the beginning, I will give a short introduction to this new technology.  
+Then it's your time to dive a little bit deeper in the matter and try to finish part one and two from the exercise.
+Then I will do a short live coding session. From that point, you can decide to stick to part one and two or sparkle some more magic in part three.
 
 ## GSAP
 
@@ -49,7 +51,7 @@ Use the documentation on [GreenSock](https://greensock.com/get-started/) to find
 <details><summary>How do I move an element with an id of "moon" to a y position of 200?</summary>
 
 ```js
-gsap.to('#logo', { duration: 1, x: 100 });
+gsap.to('#moon', { duration: 1, y: 200 });
 ```
 
 </details>
@@ -57,7 +59,7 @@ gsap.to('#logo', { duration: 1, x: 100 });
 <details><summary>How do I add an ease of "bounce out" to the previous line of code?</summary>
 
 ```js
-gsap.to('#logo', { duration: 1, ease: 'bounce.out', x: 100 });
+gsap.to('#moon', { duration: 1, ease: 'bounce.out', y: 200 });
 ```
 
 </details>
@@ -68,15 +70,16 @@ Be aware that you use the latest version of GreenSock (GSAP 3) for your document
 You will notice the previous versions use `TweenLite.to`instead of `gsap.to`.
 
 - [The official GSAP get started documentation](https://greensock.com/get-started/)
-- [Getting started with GSAP3](https://www.youtube.com/watch?v=M4GCT-2kaoo)
+- [Getting started with GSAP3 - youtube](https://www.youtube.com/watch?v=M4GCT-2kaoo)
 - [Just Google it!](https://www.google.com)
 
 ### Challenge
 
 **Let's animate a 'magical universe' landing page.**
 
-PART ONE: PREPARATION  
-I already prepared the html and css of the landing page so that you can start animation almost immediately.
+##### PART ONE: PREPARATION
+
+I already prepared the html and css of the landing page so that you can start animating almost immediately.
 There's still a few things you need to do to start.
 
 1. Go to this [repository]() to get the files I already created.
@@ -85,38 +88,43 @@ There's still a few things you need to do to start.
 4. In the terminal, go to the folder you want to clone in `cd ...` and clone your forked repo `git clone url`.
 5. Open the cloned repo in your favorite code editor and you're ready to go. Whoop whoop!
 
-PART TWO: MY FIRST ANIMATIONS  
+##### PART TWO: MY FIRST ANIMATIONS
+
 Your task: the HTML and CSS are ready, all you have to do is to write the necessary JavaScript so that when you load the page, the magic happens. Exciting, isn't it?!
 
 Don't know where to start? Try to follow these steps:
 
 1. You will need to create 'app.js' and link it to the index.html
-2. You will need to add another script tag to load GSAP in your project.
+2. You will need to add another script tag to load GSAP in your project (remember the script tag??).
 3. Now you can start animating in 'app.js'.
 
-- Pick a tween: gsap.to(), gsap.from() or gsap.fromTo()
-- Pick the target from the html you want to animate, e.g. ".planet-one img"
-- Optional: decide on the duration of the animation.
-- Decide on the vars. A var is an object with property/value pairs that you're animating to (like opacity:0.5, rotation:45, etc.)
+   - Pick a tween: gsap.to(), gsap.from() or gsap.fromTo()
+   - Pick the target from the html you want to animate, e.g. ".planet-one img"
+   - Optional: decide on the duration of the animation.
+   - Decide on the vars. A var is an object with property/value pairs that you're animating to (like opacity:0.5, rotation:45, etc.)
 
-4. Optional: add delays to the animations to make them variate in time (don't use timelines yet, that's the next part)
+4. Optional: add delays to the animations to make them variate in time (don't use timelines yet, that's the next part).
 
-PART THREE: EXTRA EXTRA EXTRA  
+Before you start reading into the next part, let me know that you're done with the first two parts of the exercise.
+
+##### PART THREE: EXTRA EXTRA EXTRA
+
 I wouldn't be me, if I didn't add a little suprise in this challenge. Yes baby, let's explore our created universe!  
 In this part of the workshop, we are going to use a little bit more JavaScript. Relax and breath, you can do this!
 
-Go to 'style.css' and look for the astronaut-container. Hey, why has it a property of `display: none`??? That's the suprise!  
+Go to 'style.css' and look for the astronaut-container. Hey, why does it have a property of `display: none`???  
+That's the suprise!  
 We're going to have fun with this little guy. Just leave the property like it is, we're only using JavaScript today.
 
 1. In your 'app.js' add an eventlistener that listens to a click to the explore button.
 2. In this eventlistener, manipulate the dom by changing the style of the astronaut to `display: block`.
 3. Refresh the page and click the explore button. Is the astronaut appearing? Yes?? Good job!!
 4. Now let's have some fun with this little guy, while using a timeline. Read this [introduction](https://greensock.com/docs/v3/GSAP/Timeline) to learn more about timelines.
-5. Let's create a function movingTheAstronaut(). Inside this function, create a timeline and add some animations.
+5. Let's create a function `movingTheAstronaut()`. Inside this function, create a timeline and add some animations.
 6. Now invoke the function inside the eventlistener we created in the first step, just after the dom-manipulation.
-7. Now go crazy with other functions like waving(), swimming(), rotating(), ... Don't forget to add them to the eventlistener.
+7. Now go crazy with other functions like `waving()`, `swimming()`, `rotating()`, ... Don't forget to add them to the eventlistener.
 
-### Challenge
+### This is it
 
 All done? Congratulations, you deserve a piece of pie and an awesome weekend!
 I'm proud of you guys! I hope you had fun!
