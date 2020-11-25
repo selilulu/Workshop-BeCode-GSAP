@@ -82,7 +82,6 @@ function waving() {
 }
 
 document.getElementById('explore').addEventListener('click', function(e) {
-  console.log('yaaaaay');
   document.querySelector('.astronaut-container').style.display = "block";
   moveAstronaut();
   waving();
