@@ -20,19 +20,20 @@ This means that learning with us is not like listening to a teacher all the time
 
 ## Let's code
 
-Today I will introduce you to **GSAP**. The GreenSock Animation Platform (GSAP) is a popular set of JavaScript tools for building animations on the web. Anything you see in your web browser can be animated with GSAP. After the short introduction, it's up to you to push yourself to discover more. Today we will be making a 'magical universe' landing page.
+Today I will introduce you to **GSAP**. The GreenSock Animation Platform (GSAP) is a popular set of JavaScript tools for building animations on the web. Anything you see in your web browser can be animated with GSAP.  
+The challenge of today: a 'magical universe' landing page.
 
 At the beginning, I will give a short introduction to this new technology.  
 Then it's your time to dive a little bit deeper in the matter and try to finish part one and two from the exercise.
-Then I will do a short live coding session. From that point, you can decide to stick to part one and two or sparkle some more magic in part three.
+After about one hour, I will do a short live coding session. From that point, you can decide to stick to part one and two or sparkle some more magic in part three.
 
 ## GSAP
 
-So what can we do with GSAP?  
+**So what can we do with GSAP?**  
 Anything you see in your web browser can be animated with GSAP. Whether you want to build elegant UI animations or dynamic effects in web apps, games, and interactive stories; GSAP is up to the task.  
 Take a quick look on the [GSAP demo collection](https://codepen.io/collection/ANaOod) and see it for yourself.
 
-And how does it work?
+**And how does it work?**  
 You simply write short snippets of JavaScript code that define how elements should animate and what the timing should be. The benefit of animating with code is that one line of code can animate one thing just as easily as it can animate 1,000 things. With code-driven animation it’s surprisingly easy to randomize your animations and have them respond to user interaction.
 
 ### Try it yourself
@@ -82,11 +83,10 @@ You will notice the previous versions use `TweenLite.to`instead of `gsap.to`.
 I already prepared the html and css of the landing page so that you can start animating almost immediately.
 There's still a few things you need to do to start.
 
-1. Go to this [repository]() to get the files I already created.
-2. In the top-right corner of the page, click Fork.
-3. On GitHub, navigate to your fork an copy the code.
-4. In the terminal, go to the folder you want to clone in `cd ...` and clone your forked repo `git clone url`.
-5. Open the cloned repo in your favorite code editor and you're ready to go. Whoop whoop!
+1. Fork this repository to your own Github. In the top-right corner of the page, click Fork.
+2. On GitHub, navigate to your fork an copy the code.
+3. In the terminal, go to the folder you want to clone in `cd ...` and clone your forked repo `git clone url`.
+4. Open the cloned repo in your favorite code editor and you're ready to go. Whoop whoop!
 
 ##### PART TWO: MY FIRST ANIMATIONS
 
@@ -98,7 +98,7 @@ Don't know where to start? Try to follow these steps:
 2. You will need to add another script tag to load GSAP in your project (remember the script tag??).
 3. Now you can start animating in 'app.js'.
 
-   - Pick a tween: gsap.to(), gsap.from() or gsap.fromTo()
+   - Pick a tween: `gsap.to()`, `gsap.from()` or `gsap.fromTo()`
    - Pick the target from the html you want to animate, e.g. ".planet-one img"
    - Optional: decide on the duration of the animation.
    - Decide on the vars. A var is an object with property/value pairs that you're animating to (like opacity:0.5, rotation:45, etc.)
@@ -126,5 +126,5 @@ We're going to have fun with this little guy. Just leave the property like it is
 
 ### This is it
 
-All done? Congratulations, you deserve a piece of pie and an awesome weekend!
+All done? Congratulations, you deserve a piece of pie and an awesome weekend!  
 I'm proud of you guys! I hope you had fun!
