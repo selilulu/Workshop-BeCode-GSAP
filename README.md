@@ -2,8 +2,6 @@
 
 ## How to BeCode :octocat:
 
-![becode](./images/spreadtheword.png)
-
 At BeCode we help motivated people become **junior web developers**.  
 This means that during the **7 months** at BeCode we help you navigate the ever-growing world of web development.
 
